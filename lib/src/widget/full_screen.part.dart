@@ -201,6 +201,6 @@ class _RotateBoxProvider extends InheritedWidget {
   }
 
   static _RotateBoxProvider of(BuildContext context) {
-    return context.dependOnInheritedWidgetOfExactType(aspect: _InheritedProviders);
+    return context.dependOnInheritedWidgetOfExactType(aspect: _RotateBoxProvider);
   }
 }
